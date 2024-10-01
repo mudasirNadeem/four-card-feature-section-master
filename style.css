@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", system-ui;
+}
+.container{
+    overflow: auto;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+span{
+    font-weight: 200;
+    font-size: xx-large;
+    margin-bottom: 3px;
+    color: rgba(130, 130, 130, 50);
+
+}
+b{
+    margin-bottom: 10px;
+    font-size: xx-large;
+}
+small{
+    color: #d8d8da;
+    font-size: 15px;
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.card{
+    width: 350px;
+    height: 240px;
+    box-shadow: rgb(204, 201, 201) 2px 2px 9px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0 10px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.border-red{
+    border-top: #f68989 solid 4px;
+}
+.flex-column{
+    flex-direction: column;
+}
+.mt-2{
+    margin-top: 8px;
+}
+.mt-5{
+    margin-top: 20px;
+}
+strong{
+    font-size: 20px;
+}
+p{
+    color: lightgray;
+    line-height: 30px;
+}
+.justify-end{
+    justify-content: end !important;
+}
+.border-blue{
+    border-top: #46abab solid 4px;
+}
+.mt-3{
+margin-top: 12px;
+}
+.border-yellow{
+    border-top: #d1a358 solid 4px;
+}
+.border-green{
+    border-top: #4880af solid 4px;
+}
+
+@media screen and (max-width:768px) {
+    .flex-sm-column{
+        flex-direction: column;
+    }
+}
